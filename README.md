@@ -1,6 +1,8 @@
 # Aurelia-loopback-sample
 This repository goes together with a blog post on blog.opinionatedapps.com where the sample is created in a step-by-step manner based on yeoman for both aurelia and loopback.
 
+http://blog.opinionatedapps.com/build-a-minimalist-crm-app-in-5-minutes-with-aurelia-and-loopback/
+
 You can also simply clone this repository and you get immediately the end result presented in the blog article.
 
 ## Installation instructions
