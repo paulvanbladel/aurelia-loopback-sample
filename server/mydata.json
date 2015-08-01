@@ -5,7 +5,7 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "customer": 3
+    "customer": 4
   },
   "models": {
     "User": {},
@@ -14,8 +14,9 @@
     "RoleMapping": {},
     "Role": {},
     "customer": {
-      "1": "{\"firstName\":\"test\",\"lastName\":\"test\",\"id\":1}",
-      "2": "{\"firstName\":\"test2\",\"lastName\":\"test2\",\"id\":2}"
+    "1": "{\"firstName\":\"paul\",\"lastName\":\"van bladel\",\"id\":1}",
+      "2": "{\"firstName\":\"annabel\",\"lastName\":\"van bladel\",\"id\":2}",
+      "3": "{\"firstName\":\"suzanne\",\"lastName\":\"van bladel\",\"id\":3}"
     }
   }
 }
