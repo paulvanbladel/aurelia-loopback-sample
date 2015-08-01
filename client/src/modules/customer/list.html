@@ -1,0 +1,37 @@
+<template>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <h3>Customers</h3>
+            </div>
+            <button class="btn btn-info"
+            click.delegate="new()">
+            New
+            </button>
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-condensed table-hover">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr repeat.for="customer of customers"
+                            click.delegate="$parent.gotoCustomer(customer)">
+                            <td>
+                                <a click.delegate="$parent.gotoCustomer(customer)">
+                                ${customer.lastName}
+                            </a></td>
+                            <td>${customer.firstName}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</template>
