@@ -6,7 +6,7 @@ var tools = require('aurelia-tools');
 
 // updates dependencies in this folder
 // from folders in the parent directory
-gulp.task('update-own-deps', function(){
+gulp.task('update-own-deps', function() {
   tools.updateOwnDependenciesFromLocalRepositories();
 });
 
@@ -15,6 +15,13 @@ gulp.task('update-own-deps', function(){
 // from where the command is executed,
 // then runs `npm install`
 // and `gulp build` for each repo
-gulp.task('build-dev-env', function () {
+gulp.task('build-dev-env', function() {
   tools.buildDevEnv();
+});
+
+// quickly pulls in all of the aurelia
+// github repos, placing them up one directory
+// from where the command is executed
+gulp.task('pull-dev-env', function() {
+  tools.pullDevEnv();
 });
